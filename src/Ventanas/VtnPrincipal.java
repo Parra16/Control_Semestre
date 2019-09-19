@@ -261,7 +261,10 @@ public class VtnPrincipal extends javax.swing.JFrame {
             }
             System.out.println(raiz.getEtiqueta());
             System.out.println(raiz.getSiguiente().getEtiqueta());
-            System.out.println(raiz.getAnterior().getEtiqueta());            
+            System.out.println(raiz.getAnterior().getEtiqueta());
+
+
+            //agregando linea
         }
         
     }//GEN-LAST:event_formWindowOpened
