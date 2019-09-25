@@ -20,6 +20,7 @@ public class Conceptos  implements  Serializable
     private String exam;
     private String prueba;
     private String control;
+    private String color;
 
     
 
