@@ -17,6 +17,9 @@ public class Conceptos  implements  Serializable
     private String Traslate;
     private String definition;
     private String example;
+    private String exam;
+    private String prueba;
+    private String control;
 
     
 
