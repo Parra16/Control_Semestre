@@ -243,7 +243,7 @@ public class VtnPrincipal extends javax.swing.JFrame {
 
     private void BtnAjustesActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_BtnAjustesActionPerformed
     {//GEN-HEADEREND:event_BtnAjustesActionPerformed
-       
+        System.out.println("esta haciendo el comit");
     }//GEN-LAST:event_BtnAjustesActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt)//GEN-FIRST:event_formWindowOpened
@@ -261,7 +261,10 @@ public class VtnPrincipal extends javax.swing.JFrame {
             }
             System.out.println(raiz.getEtiqueta());
             System.out.println(raiz.getSiguiente().getEtiqueta());
-            System.out.println(raiz.getAnterior().getEtiqueta());            
+            System.out.println(raiz.getAnterior().getEtiqueta());
+
+
+            //agregando linea
         }
         
     }//GEN-LAST:event_formWindowOpened
